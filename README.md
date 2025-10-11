@@ -1,78 +1,9 @@
-# ML-Projects
-## Some Great Machine Learning Projects During My Learning Journey
-### These Machine Learning Projects were made by clean code and problem solving principles
-
----
-
-## 📚 Projects Overview
+# 📚 Projects Overview
 
 This repository contains multiple machine learning projects demonstrating various ML techniques and applications across different domains. Each project follows clean code principles and incorporates comprehensive data analysis, feature engineering, and model evaluation.
 
 ---
-
-## 1️⃣ Students Grades Prediction
-
-**Objective:** Predict student academic performance based on various demographic, social, and school-related features.
-
-**Description:** This project analyzes student data including age, parental education, family size, study time, and other factors to predict student grades (G1, G2, G3). The analysis includes:
-- Exploratory Data Analysis (EDA) with visualizations
-- Feature engineering and encoding categorical variables
-- Data preprocessing and handling missing values
-- Model training for grade prediction
-- Performance evaluation and insights
-
-**Dataset Features:**
-- Demographics: age, sex, address, family size
-- Educational background: parental education (Medu, Fedu), parental jobs (Mjob, Fjob)
-- School-related: school, study time, failures, absences
-- Social factors: family relationships, free time, going out, alcohol consumption
-- Target variables: G1, G2, G3 (grades in three periods)
-
-**Use Case:** Educational institutions can use this model to identify at-risk students early and provide targeted interventions to improve academic outcomes.
-
----
-
-## 2️⃣ Classifiers on Breast Cancer
-
-**Objective:** Classify breast cancer tumors as malignant or benign using various machine learning classification algorithms.
-
-**Description:** This project implements multiple classification algorithms on the Breast Cancer Wisconsin (Diagnostic) dataset. The project demonstrates:
-- Comprehensive comparison of different classification algorithms
-- Feature analysis and correlation studies
-- Model performance evaluation using multiple metrics
-- Cross-validation and hyperparameter tuning
-- Visualization of decision boundaries and model performance
-
-**Dataset Features:**
-- Features computed from digitized images of fine needle aspirate (FNA) of breast masses
-- Characteristics include: radius, texture, perimeter, area, smoothness, compactness, concavity, symmetry, and fractal dimension
-- Both mean values and worst-case values for each feature
-
-**Use Case:** Medical professionals can utilize this model as a diagnostic support tool to assist in early detection and classification of breast cancer, potentially improving treatment outcomes.
-
----
-
-## 3️⃣ Student Performance Analysis (Study)
-
-**Objective:** Analyze and predict student performance based on comprehensive demographic and educational factors.
-
-**Description:** This project focuses on analyzing student performance data from secondary education. It includes:
-- Detailed exploratory data analysis
-- Statistical analysis of factors affecting student performance
-- Data preprocessing and feature engineering
-- Model development for performance prediction
-
-**Dataset Features:**
-- Student demographics and background information
-- Educational context and parental involvement
-- Study habits and time management
-- Social and lifestyle factors
-
-**Use Case:** Schools and educational policymakers can leverage these insights to understand key factors influencing student success and develop evidence-based intervention strategies.
-
----
-
-## 4️⃣ MediPredict: AI-Powered Patient Outcome Predictor
+## 1️⃣ MediPredict: AI-Powered Patient Outcome Predictor
 
 **Project Idea Name:** MediPredict: AI-Powered Patient Outcome Predictor
 
@@ -152,6 +83,68 @@ This enables healthcare providers to make more informed decisions, prioritize hi
 - **Scikit-learn** - Machine learning algorithms and tools
 - **Matplotlib & Seaborn** - Data visualization
 - **Jupyter Notebooks** - Interactive development environment
+
+---
+
+## 2️⃣ Students Grades Prediction
+
+**Objective:** Predict student academic performance based on various demographic, social, and school-related features.
+
+**Description:** This project analyzes student data including age, parental education, family size, study time, and other factors to predict student grades (G1, G2, G3). The analysis includes:
+- Exploratory Data Analysis (EDA) with visualizations
+- Feature engineering and encoding categorical variables
+- Data preprocessing and handling missing values
+- Model training for grade prediction
+- Performance evaluation and insights
+
+**Dataset Features:**
+- Demographics: age, sex, address, family size
+- Educational background: parental education (Medu, Fedu), parental jobs (Mjob, Fjob)
+- School-related: school, study time, failures, absences
+- Social factors: family relationships, free time, going out, alcohol consumption
+- Target variables: G1, G2, G3 (grades in three periods)
+
+**Use Case:** Educational institutions can use this model to identify at-risk students early and provide targeted interventions to improve academic outcomes.
+
+---
+
+## 3️⃣ Classifiers on Breast Cancer
+
+**Objective:** Classify breast cancer tumors as malignant or benign using various machine learning classification algorithms.
+
+**Description:** This project implements multiple classification algorithms on the Breast Cancer Wisconsin (Diagnostic) dataset. The project demonstrates:
+- Comprehensive comparison of different classification algorithms
+- Feature analysis and correlation studies
+- Model performance evaluation using multiple metrics
+- Cross-validation and hyperparameter tuning
+- Visualization of decision boundaries and model performance
+
+**Dataset Features:**
+- Features computed from digitized images of fine needle aspirate (FNA) of breast masses
+- Characteristics include: radius, texture, perimeter, area, smoothness, compactness, concavity, symmetry, and fractal dimension
+- Both mean values and worst-case values for each feature
+
+**Use Case:** Medical professionals can utilize this model as a diagnostic support tool to assist in early detection and classification of breast cancer, potentially improving treatment outcomes.
+
+---
+
+## 4️⃣ Student Performance Analysis (Study)
+
+**Objective:** Analyze and predict student performance based on comprehensive demographic and educational factors.
+
+**Description:** This project focuses on analyzing student performance data from secondary education. It includes:
+- Detailed exploratory data analysis
+- Statistical analysis of factors affecting student performance
+- Data preprocessing and feature engineering
+- Model development for performance prediction
+
+**Dataset Features:**
+- Student demographics and background information
+- Educational context and parental involvement
+- Study habits and time management
+- Social and lifestyle factors
+
+**Use Case:** Schools and educational policymakers can leverage these insights to understand key factors influencing student success and develop evidence-based intervention strategies.
 
 ---
 
